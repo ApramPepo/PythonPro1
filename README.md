@@ -1,2 +1,2 @@
 # PythonPro1
-First Python Project
+My first Python Project. Learning the basics and looking forward to make this a longterm <strong>project</strong>.
