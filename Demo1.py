@@ -2,14 +2,18 @@
 
 print ('Welcome to Python!')
 name = input('type your name: ')
+name = name.strip()
 print ('Hello, ' + name + '!' + ' Welcome to the program!')
+
+# Ask users about their information
+
 color = input('What is your favorite color? ')
-print ("Your favorite color is " + color)
+print ("Your favorite color is " + color, end="? ")
 print ("Wow, you're awesome!")
 age = input('What is your Birth year? ')
-print("You're age the age of:"), print (2024 - int(age))
-weight = input ("What is your weight in pound?")
-print("Your weight in kilogram is: ")
+print("You're age the age of: ", end=""), print (2024 - int(age))
+weight = input ("What is your weight in pound? ")
+print("Your weight in kilogram is: ", end="")
 print(0.45 * float(weight))
 
 
