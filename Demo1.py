@@ -21,11 +21,13 @@ print(0.45 * float(weight))
 
 country = input("Which country do you live in? ")
 country = country.strip().capitalize()
-print ("Cool to know you're from ", country, end=" !")
+print ("Cool to know you're from"+country, end="!")
 
-city = input("Would you mind if you tell us which city? ")
+city = input(" Would you mind if you tell us which city? ")
 city = city.strip().capitalize()
-print (city,"?", "Wow! Awesome!")
+print (city+"?", "Wow! Awesome!")
+
+
 
 print('''
 This is the first program made in python by Abram.
