@@ -22,14 +22,17 @@ print(0.45 * float(weight))
 
 country = input(str("Which country do you live in? "))
 country = country.strip().capitalize()
-print ("Cool to know you're from"+country, end="!")
+print ("Cool to know you're from",country, end="!\n")
 
 city = input(str(" Would you mind if you tell us which city? "))
 city = city.strip().capitalize()
 print (city+"?", "Wow! Awesome!")
 
+msg = f'Your Details entered so far: your name is {name}, born in {age}, with a weight of: {weight}Kg, and lives in {city}, {country}.'
+print (msg)
 
-
+edit = input("Would you like to edit any information before we proceed?")
+# import numbers 
 #print('''
 #This is the first program made in python by Abram.
 #      Looking forward to understand more about this,
